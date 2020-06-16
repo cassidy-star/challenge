@@ -1,514 +1,272 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-body {
-  background: #47384D;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
+body
+{
+  background-color:white;
+ 
+}
+nav
+{
+   font-family: 'Playfair Display', serif;
+   font-size:22px;
+  position: fixed;
+  text-align: center;
+  float: right;
+}
+nav ul li
+{
+  color:red;
+  padding: 15px;
+  float: right;
+
+}
+.navbar-brand{
+  float: right;
+}
+.logo
+{
+  text-align: center;
+
 }
 
-.landing-page {
-  background-image: url("pictures/hearo-top2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+header{
+  height: 50%;
 }
-.landing-page .logo {
-  width: 50%;
-  position: absolute;
-  top: 40%;
-  left: 28%;
-  z-index: 2;
+h2
+{
+  color:red;
+  font-family: 'Playfair Display', serif;
 }
-.landing-page .arrow {
-  position: absolute;
-  left: 50%;
-  z-index: 3;
-  top: 82%;
-  width: 2.5%;
+#photo-1{
+  margin:3%;
 }
-
-.about {
-  height: 100vh;
-  background: #6f249b;
-  width: 85%;
-  height: 35vh;
-  margin: 7%;
-  top: 35em;
-  font-family: "Playfair Display", serif;
-  color: white;
-  font-size: 2.5em;
-  left: 14%;
-  padding: 10%;
+.row
+{ justify-content: center;
+  margin: 2%;
 }
-.about .btn {
-  position: absolute;
-  z-index: 2;
+.btn 
+{
+  position: relative;
   background: transparent;
-  border: 6px #8B3762 solid;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 32px;
-  size: 30%;
-  left: 45%;
-  top: 130%;
-  width: 10em;
-  padding: 8px;
-}
-.about .arrow-right {
-  position: absolute;
-  left: 74%;
-  top: 131%;
-  width: 7%;
-}
-.about .arrow-glyph-2 {
-  position: absolute;
-  top: 21%;
-  left: 10%;
-  z-index: 4;
-}
-
-.advert .hex {
-  position: absolute;
-  left: 50%;
-  top: 140%;
-  z-index: 3;
-}
-.advert .sec-image {
-  position: absolute;
-  width: 100%;
-  padding: 5%;
-  top: 150%;
-  z-index: 3;
-}
-.advert .glyph {
-  position: absolute;
-  top: 149%;
-  left: 10%;
-  z-index: 3;
-}
-.advert .text1 {
-  position: absolute;
-  color: white;
-  font-family: "Playfair Display", serif;
-  font-size: 4em;
-  top: 145%;
-  left: 35%;
-  z-index: 3;
-}
-.advert .text2 {
-  position: absolute;
-  z-index: 3;
-  color: white;
-  font-family: "Playfair Display", serif;
-  font-size: 4em;
-  top: 148%;
-  left: 37%;
-}
-.advert .text3 {
-  position: absolute;
-  z-index: 3;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2em;
-  top: 185%;
-  left: 8%;
+  border:2px  red solid;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-left: 25%;
+  padding:8px;
+  top: 5%;
   width: 50%;
 }
-.advert .arrow-glyph {
-  position: absolute;
-  top: 111%;
-  left: 10%;
+h3
+{
+  color:red;
+  font-family: 'Playfair Display', serif;
 }
-.advert .btn2 {
-  position: absolute;
-  z-index: 2;
-  background: transparent;
-  border: 6px #8B3762 solid;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 32px;
-  size: 30%;
-  left: 59%;
-  top: 186%;
-  width: 10em;
-  padding: 10px;
-  z-index: 3;
-}
-.advert .arrow-right2 {
-  position: absolute;
-  left: 44%;
-  top: 40;
-  width: 7%;
-  z-index: 3;
-}
-.advert div.c {
-  height: 70vh;
-  width: 100%;
-  background-color: #3B6382;
-  transform: skewY(5deg);
+p
+{
+  font-family: 'Montserrat', sans-serif;
 }
 
-.data .circle {
-  position: absolute;
-  z-index: 3;
-  left: 15%;
-  top: 210%;
+.paragraph-1{
+  font-size: 12px;
+  text-align: center;
+ 
 }
-.data .trd-image {
-  position: absolute;
-  padding: 8%;
-  top: 215%;
-  left: 15%;
-  width: 45vh;
-}
-.data .text4 {
-  position: absolute;
-  z-index: 4;
-  color: white;
-  font-family: "Playfair Display", serif;
-  font-size: 4em;
-  top: 220%;
-  left: 13%;
+
+.list-group{
   width: 50%;
+  text-align: center;
+  float: center;
+  font-family: 'Montserrat', sans-serif;
 }
-.data .text5 {
+.we-do
+{
+  margin-left: 11%;
+}
+h4{
+    color:red;
+  font-family: 'Playfair Display', serif;
+}
+
+.projects{
+  text-align: center;
+
+  }
+
+  .find{
+  text-align: center;
+
+}
+
+.map{
+  text-align: center;
+ 
+}
+.about{
+  text-align: center;
+}
+.about-us{
+  justify-content: center;
+}
+.about1{
+ 
+  justify-content: center;
+  width: 655%
+}
+.about-{
+  widows: 50%;
+   text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+.slideshow-container{
+  width: 45%;
+  
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.designer-kit{
+  text-align: center;
+}
+
+.Cupbords{
+  text-align: center;
+  
+}
+.kitchen{
+ text-align: center;
+ margin-left: 14%;
+  width: 70%;
+}
+.bath{
+  text-align: center;
+ margin-left: 14%;
+  width: 70%;
+}
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
   position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
   color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2em;
-  top: 249%;
-  left: 44%;
-  width: 50%;
-}
-.data .btn4 {
-  position: absolute;
-  z-index: 2;
-  background: transparent;
-  border: 6px #8B3762 solid;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 32px;
-  size: 30%;
-  left: 5%;
-  top: 237%;
-  width: 10em;
-  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-/*
-  .cards{
-
-
-	.card-txt-1{
-		color:#8B3762;
-		font-size:4em;
-		left:40%;
-
-	}
-	 .card-1{
-  			width:90%;
-  			margin:5%;
-  			bottom:280%;
-
-  		.col-lg-4{
-
-  			position:absolute;
-  			z-index:3;
-
-
-  			width:90%;
-  			height:30%;
-
-  		}
-
-      }
-
-  	   .card-2{
-  	   		width:90%;
-  	   		margin:5%;
-
-  	   }
-
-
-
-  	   .card-3{
-  	   		width:90%;
-  	   		margin:5%;
-  	   }
-
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-*/
-footer {
-  position: absolute;
-  z-index: 3;
-  color: grey;
-  top: 530%;
-  width: 100%;
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+.yourElement {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+ {
+  box-sizing: border-box;
 }
 
-@media only screen and (min-width: 992px) {
-  .about {
-    text-align: center;
-    background: #6f249b;
-    width: 65%;
-    height: 55vh;
-    margin: 7%;
-    top: 35em;
-    color: white;
-    font-size: 2.5em;
-  }
-  .about .btn {
-    position: absolute;
-    z-index: 2;
-    background: transparent;
-    border: 4px #E11c5b solid;
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 26px;
-    left: 60%;
-    top: 150%;
-    width: 5em;
-    padding: 0.5px;
-  }
-  .about .arrow-right1 {
-    position: absolute;
-    left: 66%;
-    top: 152%;
-    width: 6%;
-  }
-  .about .text0 {
-    position: absolute;
-    color: white;
-    font-family: "Playfair Display", serif;
-    font-size: 30px;
-    top: 125%;
-    left: 20%;
-    z-index: 3;
-    width: 40%;
-  }
-  .about .arrow-glyph-2 {
-    position: absolute;
-    top: 120%;
-    left: 10%;
-    z-index: 4;
-  }
+.zoom {
+  transition: transform .2s;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
 
-  .advert {
-    position: absolute;
-    z-index: 3;
-    height: 120vh;
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.gallery{
+  color:black; 
+    font-family: 'Playfair Display', serif;
+
+}
+.gallery1{
+  color:black; 
+    font-family: 'Playfair Display', serif;
+
+}
+div.gallery {
+  border: 2px solid red;
+  
+   text-align: center;
+   margin:45px;
+   padding: 10px;
+}
+div.gallery1 {
+  border: 2px solid black;
+  
+   text-align: center;
+   margin:45px;
+   padding: 10px;
+}
+
+
+
+div.gallery img {
+  width: 65%;
+  height: auto;
+ 
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
     width: 100%;
-    background-color: grey;
-    transform: skewY(0deg);
   }
-  .advert .hex {
-    position: absolute;
-    left: 40%;
-    top: 0%;
-    z-index: 3;
-  }
-  .advert .sec-image {
-    position: absolute;
-    width: 40%;
-    left: 10%;
-    top: 30%;
-    z-index: 3;
-  }
-  .advert .glyph {
-    position: absolute;
-    top: 23%;
-    left: 15%;
-    z-index: 3;
-  }
-  .advert .text1 {
-    position: absolute;
-    color: white;
-    font-family: "Playfair Display", serif;
-    font-size: 4em;
-    top: 15%;
-    left: 35%;
-    z-index: 3;
-  }
-  .advert .text2 {
-    position: absolute;
-    z-index: 3;
-    color: white;
-    font-family: "Playfair Display", serif;
-    font-size: 4em;
-    top: 21%;
-    left: 37%;
-  }
-  .advert .text3 {
-    position: absolute;
-    z-index: 3;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2em;
-    top: 50%;
-    left: 54%;
-    width: 35%;
-  }
-  .advert .btn2 {
-    position: absolute;
-    z-index: 2;
-    background: transparent;
-    border: 4px #E11c5b solid;
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 26px;
-    left: 61%;
-    top: 84%;
-    width: 7em;
-    padding: 0.5px;
-    z-index: 3;
-  }
-  .advert .arrow-right2 {
-    position: absolute;
-    left: 72%;
-    top: 85%;
-    width: 6%;
-    z-index: 2;
-  }
-
-  .data {
-    position: absolute;
-    z-index: 1;
-    height: 120vh;
-    width: 100%;
-    top: 340%;
-    background-color: grey;
-    transform: skewY(0deg);
-  }
-  .data .circle {
-    position: absolute;
-    z-index: 3;
-    left: 55%;
-    top: 15%;
-  }
-  .data .arrow-glyph {
-    position: absolute;
-    left: 10%;
-  }
-  .data .trd-image {
-    position: absolute;
-    z-index: 3;
-    padding: 8%;
-    top: 0%;
-    left: 35%;
-    width: 55%;
-  }
-  .data .text4 {
-    position: absolute;
-    z-index: 4;
-    color: white;
-    font-family: "Playfair Display", serif;
-    font-size: 4em;
-    top: 13%;
-    left: 19%;
-    width: 50%;
-  }
-  .data .text5 {
-    position: absolute;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2em;
-    top: 40%;
-    left: 8%;
-    width: 40%;
-    z-index: 3;
-  }
-  .data .btn4 {
-    position: absolute;
-    z-index: 2;
-    background: transparent;
-    border: 4px #E11c5b solid;
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 26px;
-    left: 9%;
-    top: 70%;
-    width: 7em;
-    padding: 0.5px;
-  }
-  .data .arrow-right3 {
-    position: absolute;
-    left: 20%;
-    top: 71%;
-    width: 7%;
-    z-index: 1;
-  }
-}
-.cards {
-  position: absolute;
-  z-index: 3;
-  background-color: #fff;
-  height: 60vh;
-  top: 460%;
-  width: 100;
-}
-.cards .card-txt-1 {
-  position: absolute;
-  z-index: 3;
-  color: #8B3762;
-  font-size: 2em;
-  left: 20%;
-  top: 10%;
-}
-.cards .card-1 {
-  width: 90%;
-  margin: 7%;
-}
-.cards .card-1 .col-lg-4 {
-  position: absolute;
-  z-index: 3;
-  top: 290%;
-  width: 90%;
-  height: 30%;
-}
-.cards .card-2 {
-  width: 90%;
-  margin: 7%;
-}
-.cards .card-txt-2 {
-  position: absolute;
-  z-index: 3;
-  color: #8B3762;
-  font-size: 2em;
-  left: 50%;
-  top: 10%;
-}
-.cards .card-3 {
-  width: 90%;
-  margin: 7%;
-  position: abolute;
-  z-index: 3;
-}
-.cards .card-txt-3 {
-  position: absolute;
-  z-index: 4;
-  color: #8B3762;
-  font-size: 2em;
-  left: 30%;
-  top: 10%;
-}
-.cards col-sm-4 text-center {
-  position: absolute;
-  height: 70vh;
-  width: 100%;
-  top: 370%;
-  background-color: #3B6382;
-  transform: skewY(5deg);
-}
-.cards footer {
-  position: absolute;
-  z-index: 3;
-  color: #fff;
-  top: 530%;
-  width: 100%;
 }
 
-/*# sourceMappingURL=style.css.map */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.journey{
+  text-align: center;
+}
